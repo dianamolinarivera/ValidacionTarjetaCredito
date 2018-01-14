@@ -76,7 +76,7 @@ l_suma: LOOP
      LEAVE l_suma;
   END LOOP l_suma;
   
- /* Calcular el restante de la divicion sobre 10 e imprime el resultado*/
+ /* Calcular el restante de la division sobre 10 e imprime el resultado*/
    IF mod(ln_suma,10) = 0 THEN
    set pv_resultado=concat('Credit Card ',pv_numero_tarjeta,' is valid.');
    set pn_resultado=1;
